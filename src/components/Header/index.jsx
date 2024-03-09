@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import logoBordado from '../../assets/img/svg/LogoSeuBordado.svg';
+import logoBordado from '../../assets/img/Logo/LogoSeuBordado.svg';
 
 export default function Header() {
   return (
