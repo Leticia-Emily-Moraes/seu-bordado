@@ -34,7 +34,7 @@ header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 10rem;
 }
 
 header nav ul li {
