@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Itim";
+    src: url(../../assets/fonts/Itim/Itim-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Vibur";
+    src: url(../../assets/fonts/Vibur/Vibur-Regular.ttf);
+}
+
+#apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Itim;
+}
+
+.sectionImg {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sectionImg img {
+    width: 70%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.sectionTexto {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.titulos {
+    font-family: Vibur;
+    font-size: 40px;
+    height: 60%;
+    text-align: left;
+    width: 20%;
+}
+
+.titulos h2::first-letter {
+    color: #EE4444;
+}
+
+.titulos h2 {
+    font-weight: normal;
+}
+
+.titulos h2::after {
+    content: " ";
+    float: left;
+    background: #EE4444;
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    margin-top: -20px;
+}
+.descricoes{
+    width: 60%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+}
