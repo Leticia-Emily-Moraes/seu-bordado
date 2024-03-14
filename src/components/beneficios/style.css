@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Vibur";
+    src: url(../../assets/fonts/Vibur/Vibur-Regular.ttf);
+}
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.beneficios h1{
+    font-family: 'Vibur', cursive;
+    font-size: 4.5em;
+    text-align: center;
+    font-weight: 500;
+}
+.beneficios div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
