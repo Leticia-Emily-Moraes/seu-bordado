@@ -1,16 +1,16 @@
 import './App.css';
-import Header from './components/Header/';
-import Apresentacao from './components/apresentacao';
-import CarouselDeImgs from './components/Carrousel/';
-import Beneficios from './components/beneficios/';
+import Header from './components/header';
+import Presentation from './components/presentation';
+import ImageCarousel from './components/ImageCarousel';
+import Benefits from './components/benefits/';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Apresentacao />
-      <CarouselDeImgs />
-      <Beneficios />
+      <Presentation />
+      <ImageCarousel />
+      <Benefits />
     </div>
   );
 }

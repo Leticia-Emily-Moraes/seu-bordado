@@ -1,7 +1,7 @@
 import React from "react";
-import "./cardBeneficios.css";
+import "./CardsBenefits.css";
 
-export default function CardsBeneficios(InfoCads) {
+export default function CardsBenefits(InfoCads) {
     return (
         <aside className="cardB">
             <img
