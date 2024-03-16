@@ -3,6 +3,7 @@ import Header from './components/header';
 import Presentation from './components/presentation';
 import ImageCarousel from './components/ImageCarousel';
 import Benefits from './components/benefits/';
+import SectionCardsPlans from './components/planCards/';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Presentation />
       <ImageCarousel />
       <Benefits />
+      <SectionCardsPlans />
     </div>
   );
 }

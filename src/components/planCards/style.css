@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Vibur";
+    src: url(../../assets/fonts/Vibur/Vibur-Regular.ttf);
+}
+.SectionCardsPlans{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: visible;
+}
+h1{
+    font-family: 'Vibur', cursive;
+    font-size: 4.5em;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.organizeCards {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: visible;
+    white-space: nowrap;
+}
+
+.organizeCards::-webkit-scrollbar {
+    display: none;
+}
