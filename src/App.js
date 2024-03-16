@@ -4,6 +4,7 @@ import Presentation from './components/presentation';
 import ImageCarousel from './components/ImageCarousel';
 import Benefits from './components/benefits/';
 import SectionCardsPlans from './components/planCards/';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ImageCarousel />
       <Benefits />
       <SectionCardsPlans />
+      <Footer />
     </div>
   );
 }
