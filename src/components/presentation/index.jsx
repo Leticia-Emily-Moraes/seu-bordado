@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Banner from "../../assets/img/banners/BannerApresentacao.svg";
 
-export default function Apresentacao() {
+export default function Presentation() {
     return (
         <section id="apresentacao">
             <aside className="sectionImg">
