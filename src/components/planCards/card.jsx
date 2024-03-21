@@ -1,5 +1,5 @@
 import React from "react";
-import "./cards.css";
+import "./card.css";
 import IconDone from "../../assets/img/icons/IconDone.svg";
 import IconNot from "../../assets/img/icons/IconNot.svg";
 

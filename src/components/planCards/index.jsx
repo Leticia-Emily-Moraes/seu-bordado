@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import CardPlans from "./cards.jsx";
+import CardPlans from "./card.jsx";
 import {CardOne, CardTwo, CardThree, CardFour} from "./mock.js"
 
 export default function SectionCardsPlans() {
